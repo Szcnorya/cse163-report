@@ -161,3 +161,12 @@ Usage: `./image -shift <sx> <sy>`
 
 ### 3.6 Fun nonlinear filters
 
+Usage: `.image -fun <f> <fov>`
+
+`f` is the focal length param and `fov` is the y-direction field of view angle in degree.
+Here I implemented a fisheye mapping called *Stereographic* with forward warping. The mapping function is `r = 2*f*tan(theta/2)`, where `theta` is the view angle in radius to the space point before mapping, and r is the radius position of the mapped pixel in the mapped image. The param `fov` was used to normalize the theta range to [-fov,+fov]. 
+
+| Original | Fun (fov = 120 degree, f = 140) | 
+| -------- | ---- |
+| ![](images/CAT.bmp) | ![](images/fun1.bmp)|
+| ![](images/CKB.bmp) | ![](images/fun2.bmp) |
