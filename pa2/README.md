@@ -121,8 +121,8 @@ My recorded information for edge collapse:
 position of v1 and v2 ,the adjacent face set of v1 and v2.
 
 My algorithm procedure was that:
-1. Add new vertex with the position of previous v2.
+1. Add new vertex with the position of previous v2.(This could utilize the delete mark feature by directly remove the delete mark)
 2. Move v1 position to previous v1.
 3. Remove all faces in adjacent face set of v2 but not in v1.
-4. Restore adjacent face set to v2.
+4. Restore adjacent face set to v2. (If there are vertex deleted, just remove the delete mark, the deleted vertex preserve the previous adjacent face set.)
 5. Rebuild adjacent vertex set of v1 and v2.
