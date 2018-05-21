@@ -9,7 +9,8 @@ A binary could be found in the `bin` folder.
 
 ## DEMO
 
-A demo link :
+A demo link : 
+[![DEMO](https://img.youtube.com/vi/qRcbGN9I86I/0.jpg)](https://www.youtube.com/watch?v=qRcbGN9I86I)
 
 ## External Library Used:
 1. GLM(OpenGL Mathematics) 
@@ -37,10 +38,8 @@ Supported Operation in Viewer:
 6. Minus key and Equal key is used to manipulate the mesh simplification and progressive mesh
 
 Screenshot:
-| | | |
-|----------------------------|--------------------------|------------------------------|
-|![BunnyNormal](images/1.png)| ![BunnyMesh](images/2.png)|  ![ElephantPhong](images/6.png)| 
 
+![BunnyNormal](images/1.png) ![BunnyMesh](images/2.png)  ![ElephantPhong](images/6.png)
 
 
 #### Implementation Note
@@ -77,5 +76,5 @@ Sample:
 
 | testpatch.off       |  Collapse v0 and v1    |
 |---------------------| -----------------------|
-|![Wire](images/5.png)| ![Wire](images/8.png)  |
+|![Original](images/5.png)| ![Collapsed](images/8.png)  |
 
