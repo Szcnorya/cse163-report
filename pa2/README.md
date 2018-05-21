@@ -37,7 +37,7 @@ Supported Operation in Viewer:
 6. Minus key and Equal key is used to manipulate the mesh simplification and progressive mesh
 
 Screenshot:
-|----------------------------|--------------------------|------------------------------|
+| | | |
 |----------------------------|--------------------------|------------------------------|
 |![BunnyNormal](images/1.png)| ![BunnyMesh](images/2.png)|  ![ElephantPhong](images/6.png)| 
 
@@ -74,7 +74,8 @@ Input : v1, v2
 
 Sample:
 
-|---------------------| -----------------------|
+
 | testpatch.off       |  Collapse v0 and v1    |
+|---------------------| -----------------------|
 |![Wire](images/5.png)| ![Wire](images/8.png)  |
 
